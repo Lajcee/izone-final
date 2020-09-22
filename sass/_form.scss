@@ -1,0 +1,181 @@
+/* contact form  */
+
+
+.contactContainer{
+
+  position:relative;
+  display: flex;
+  width: 100%;
+  height:70%;
+  padding: 15px 50px;
+  margin-top: 50px;
+  background-color: $main-text-colour;
+  border-radius: 15px;
+}
+
+
+.contact-box{
+  max-width: 700px;
+  display: inline-flex;
+  grid-template-columns: repeat(2,1fr);
+  text-align: left;
+  background-color: transparent;
+}
+
+
+.contact-title{
+position: relative;
+padding-bottom: 10px;
+margin-bottom: 20px;
+}
+
+h2 .contact-title:after{
+content: '';
+position: absolute;
+left: 50%;
+bottom: 0%;
+transform: translateX(-50%);
+height:4px;
+width:50px;
+border-radius: 1px;
+
+}
+
+.field{
+width: 100%;
+padding: 0.5rem 1rem;
+outline: none;
+border: 2px solid $blue-icon;
+border-radius: 12px;
+background-color: $main-bg-colour;
+font-size: 1.1rem;
+margin-bottom: 22px;
+transition: .3s;
+}
+
+.field:hover{
+background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+.field:focus{
+background-color: #fff;
+opacity: 50%;
+border: 0.05px solid gray;
+}
+
+.area{
+min-height: 150px;
+}
+
+// .btn{
+// width: 100%;
+// padding: 0.5rem 1rem;
+// font-size: 1.1rem;
+// background-color: none;
+// cursor: pointer;
+// outline: 1.5px;
+// border: none;
+// transition: 0.3s;
+// }
+
+.btn:hover{
+background-color: lightgray;
+}
+
+/* login form  */
+
+
+
+.card{
+text-align: center;
+margin-top: 100px;
+width: 380px;
+padding: 10px 50px;
+height: 280px;
+border-radius: 15px;
+background: transparent;
+}
+
+
+
+
+.login{
+h3{
+color: $main-text-colour;
+text-align: center;
+margin-bottom: 30px;
+  }
+}
+
+.login h2:before{
+content: "";
+position: absolute;
+width: 60%;
+height: 2px;
+background: transparent;
+top: 70px;
+left: 10%;
+}
+
+.input-border{
+margin-left: 35%;
+width: 30%;
+margin-top: 30px;
+height: 60px;
+position: relative;
+margin-bottom: 30px;
+color: darkgray;
+}
+
+.text{
+width: 90%;
+height: 60%;
+padding: 0 10px;
+border: none;
+background: none;
+font-size: 18px;
+color: $main-text-colour;
+}
+
+.border{
+position: absolute;
+bottom: 0;
+left: 0;
+width: 0;
+height: 2px;
+background: white;
+transition: .5s;
+}
+
+.text:focus ~ .border,
+.text:valid ~ .border{
+width: 100%;
+}
+
+label{
+position: absolute;
+top: 8px;
+left: 14px;
+pointer-events: none;
+font-size: 15px;
+transition: .5s;
+}
+
+.text:focus ~ label,
+.text:valid ~ label{
+top: -12px;
+left: 0;
+color: $main-text-colour;
+font-size: 10px;
+}
+
+.btn{
+width: 20%;
+height: 40px;
+border-radius: 8px;
+background: $blue-icon;
+color: $main-text-colour;
+font-size: 18px;
+transition: .5s;
+}

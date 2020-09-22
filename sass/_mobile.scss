@@ -1,0 +1,114 @@
+@media only screen and (max-width: 600px) {
+  body {
+  }
+  .col-sm-1 {width: 8.33%;}
+  .col-sm-2 {width: 16.66%;}
+  .col-sm-3 {width: 25%;}
+  .col-sm-4 {width: 33.33%;}
+  .col-sm-5 {width: 41.66%;}
+  .col-sm-6 {width: 50%;}
+  .col-sm-7 {width: 58.33%;}
+  .col-sm-8 {width: 66.66%;}
+  .col-sm-9 {width: 75%;}
+  .col-sm-10 {width: 83.33%;}
+  .col-sm-11 {width: 91.66%;}
+  .col-sm-12 {width: 100%;}
+
+
+
+  .top-header{
+    margin-left: -20px;
+    width: 100%;
+    height: auto;
+    h1 {
+      width: 80%;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 30px;
+      margin: 10%;
+  }
+  }
+
+  .logo-div{
+    .image__logo{
+      width: 40%;
+      }
+      margin-left: -40px;
+      margin-top: 8px;
+  }
+
+.top-nav{
+  font-size: 13px;
+}
+
+  .header-icons{
+    display: none;
+  }
+
+  .phone-img{
+    padding: 30px;
+  }
+
+  .mobilePhone{
+    z-index: -1;
+    width: 150%;
+  }
+
+  .top-header{
+    margin-top: 60px;
+  }
+
+  .header-description{
+    float: left;
+    margin-left: 38px;
+    margin-top: 20px;
+  }
+
+
+  h2{
+    font-size: 30px;
+  }
+
+.text{
+  font-size: 15px;
+}
+
+.intro-why{
+  // margin: 10px;
+}
+
+.title-why{
+  font-size: 30px;
+}
+
+
+
+// login form
+
+.input-border{
+  margin-left: 50px;
+  width: 60%;
+}
+
+
+
+.btn{
+  width: 100%;
+}
+
+#contact{
+  background-color: none;
+  border-radius: 15px;
+}
+
+.what{
+  font-size: 10px;
+}
+
+.icons-info{
+  margin-bottom:15px;
+}
+
+
+}

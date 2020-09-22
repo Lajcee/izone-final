@@ -1,0 +1,108 @@
+@media only screen and (min-width: 601px) and (max-width: 850px) {
+  body {
+  }
+
+
+  .top-header{
+    margin-left: -10px;
+    width: 100%;
+    height: auto;
+    h1 {
+      width: 60%;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 50px;
+      line-height: 75px;
+      margin: 10%;
+  }
+  }
+
+
+
+  .header-description{
+    width: 80%;
+    margin-left: 70px;
+    margin-top: 6px;
+  }
+
+  .appstore-header{
+    padding-top: 70px;
+    font-size: 25px;
+  }
+
+
+  .phone-img{
+    margin:170px;
+    margin-top:20px;
+    width: 100%;
+    margin-left: 80px;
+    z-index: -1;
+    padding-bottom: 40px;
+    margin-bottom: -70px;
+  }
+
+
+  .logo-div{
+    width: 100%;
+    padding: 20px;
+  }
+
+  .header-icons{
+  margin-top: -80px;
+  width: 100%;
+
+  }
+
+.intro{
+  h2{
+    font-size: 50px;
+  }
+  p{
+    font-size: 20px;
+  }
+}
+
+.intro-why{
+  margin-bottom: 30px;
+}
+
+.icons-info{
+  margin-bottom:15px;
+}
+
+.img{
+  display: none;
+}
+
+.login-container{
+  grid-template-columns: 1fr;
+}
+
+.phone{
+  display: none;
+}
+
+.description-why{
+  font-size: 10px;
+}
+
+
+.login-form{
+  justify-content: center;
+}
+.col-md-1 {width: 8.33%;}
+.col-md-2 {width: 16.66%;}
+.col-md-3 {width: 25%;}
+.col-md-4 {width: 33.33%;}
+.col-md-5 {width: 41.66%;}
+.col-md-6 {width: 50%;}
+.col-md-7 {width: 58.33%;}
+.col-md-8 {width: 66.66%;}
+.col-md-9 {width: 75%;}
+.col-md-10 {width: 83.33%;}
+.col-md-11 {width: 91.66%;}
+.col-md-12 {width: 100%;}
+
+
+}

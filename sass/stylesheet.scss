@@ -1,0 +1,60 @@
+@import 'resets';
+@import 'mixins';
+@import 'variables';
+@import 'typography';
+@import 'form';
+@import 'images';
+@import 'auto';
+@import 'containers';
+@import 'nav';
+
+@import 'desktop';
+@import 'tablet';
+@import 'mobile';
+
+
+
+html,body{
+  background-color: $main-bg-colour;
+  width: 100%;
+  margin: 0px;
+ padding: 0px;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  }
+
+
+h1, h2, p, h4{
+  color: $main-text-colour;
+}
+
+#blue-bg{
+  border-radius: 15px;
+  width: 100%;
+  height: 500px;
+  background-color: $blue-icon;
+}
+
+.blue-bg-dark{
+  border-radius: 15px;
+  width: 100%;
+  height: 500px;
+  background-color: $main-text-colour;
+}
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: $main-text-colour;
+   border-radius: 5px;
+   color: white;
+   text-align: center;
+}

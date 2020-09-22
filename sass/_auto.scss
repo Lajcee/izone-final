@@ -1,0 +1,83 @@
+.card-device {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 6px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 6px;
+  width: 10%;
+  margin: 0.5%;
+  background-color:#dff2f8;
+}
+
+
+/* On mouse-over, add a deeper shadow */
+.card-device:hover {
+  box-shadow: $main-text-colour;
+}
+
+/* Add some padding inside the card container */
+.automaticContainer {
+  padding: 50px;
+  // border: 2px solid red;
+}
+.automatic{
+  overflow: auto;
+  // border:1px solid blue;
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+  border-radius: 8px 8px 0 0;
+}
+
+.camView{
+  margin:auto;
+  display: block;
+}
+
+.auto-heading{
+  text-align: center;
+  margin: 20px;
+  font-size: 30px;
+  color: $main-text-colour;
+}
+
+.temp{
+  width: 30%;
+  height:500px;
+  display: block;
+  margin: auto;
+  margin-top: -25px;
+}
+
+.lights, .sun, .camera, .tv, .sound{
+  width: 40%;
+  height:500px;
+  margin: auto;
+  display: block;
+
+}
+
+.lights{
+  margin: auto;
+  display: block;
+  margin-top: -33px;
+}
+
+.tv{
+  margin: auto;
+  display: block;
+  margin-top: -40px;
+}
+
+
+.switch{
+  width: 100px;
+  margin: auto;
+  display: block;
+}
+
+.switcheOn, .switcheOff{
+  font-size: 50px;
+  margin: auto;
+  display: block;
+}
